@@ -27,6 +27,7 @@ class MainFragment : Fragment() {
         _binding = FragmentMainBinding.inflate(inflater, container, false)
         Log.d("abba","trying to push to remote test branch")
         Log.d("abba","after rebasing master ontp origin/test")
+        Log.d("abbba","pushing onto origin/test")
         return binding.root;
     }
 
